@@ -2,10 +2,10 @@
 hostname "LimitGames.de/RTS GMOD/TTT"
 
 // RCON - remote console password.
-rcon_password "Jasmin2154!"
+rcon_password ""
 
 // Server password - for private servers.
-sv_password "lgboss"
+sv_password ""
 
 // Server Logging
 log on
