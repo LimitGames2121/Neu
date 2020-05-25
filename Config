@@ -1,0 +1,106 @@
+// Hostname for server.
+hostname "LimitGames.de/RTS GMOD/TTT"
+
+// RCON - remote console password.
+rcon_password "Jasmin2154!"
+
+// Server password - for private servers.
+sv_password "lgboss"
+
+// Server Logging
+log on
+sv_logbans 1
+sv_logecho 1
+sv_logfile 1
+sv_log_onefile 0
+lua_log_sv 0
+
+sv_rcon_banpenalty 0
+sv_rcon_maxfailures 20
+sv_rcon_minfailures 20
+sv_rcon_minfailuretime 20
+
+// Network Settings
+sv_downloadurl ""
+sv_loadingurl "https://limitgames.de/tttload?steamid=%s&mapname=%m"
+net_maxfilesize 64
+sv_maxrate 0
+sv_minrate 800000
+sv_maxupdaterate 66
+sv_minupdaterate 33
+sv_maxcmdrate 66
+sv_mincmdrate 33
+
+// Server Settings
+sv_airaccelerate 100
+sv_gravity 600
+sv_allow_wait_command 0
+sv_allow_voice_from_file 0
+sv_turbophysics 0
+sv_max_usercmd_future_ticks 12
+gmod_physiterations 4
+sv_client_min_interp_ratio 1
+sv_client_max_interp_ratio 2
+think_limit 20
+sv_region 0
+sv_noclipspeed 5
+sv_noclipaccelerate 5
+sv_lan 0
+sv_alltalk 1
+sv_contact youremail@changeme.com
+sv_cheats 0
+sv_allowcslua 0
+sv_pausable 0
+sv_filterban 1
+sv_forcepreload 1
+sv_footsteps 1
+sv_voiceenable 1
+sv_voicecodec vaudio_speex
+sv_timeout 120
+sv_deltaprint 0
+sv_allowupload 0
+sv_allowdownload 0
+
+ttt_preptime_seconds "20"
+ttt_firstpreptime "30"
+ttt_posttime_seconds "10"
+ttt_haste "1"
+ttt_haste_starting_minutes "6"
+ttt_haste_minutes_per_death "0.5"
+ttt_round_limit "5"
+ttt_time_limit_minutes "60"
+ttt_postround_dm "1"
+ttt_traitor_pct "0.35"
+ttt_detective_pct "0.13"
+ttt_detective_max "3"
+ttt_detective_min_players "4"
+ttt_minimum_players "1"
+ttt_ragdoll_pinning_innocents "1"
+ttt_karma_max "1200"
+ttt_karma_low_ban "0"
+sv_downloadurl "http://213.202.223.18/"
+sbox_allownpcs "1"
+sbox_godmode "0"
+sbox_weapons "1"
+sbox_playerhurtsplayer "0"
+sbox_noclip "1"
+sbox_persist "0"
+sbox_maxprops "200"
+sbox_maxragdolls "10"
+sbox_maxnpcs "10"
+sbox_maxballoons "100"
+sbox_maxeffects "200"
+sbox_maxdynamite "10"
+sbox_maxlamps "3"
+sbox_maxthrusters "50"
+sbox_maxwheels "50"
+sbox_maxhoverballs "50"
+sbox_maxvehicles "4"
+sbox_maxbuttons "50"
+sbox_maxsents "100"
+sbox_maxemitters "20"
+
+// Misc Config
+exec banned_user.cfg
+exec banned_ip.cfg
+heartbeat
